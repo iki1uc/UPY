@@ -1,64 +1,93 @@
-# WHIRL – 9×9 RESPO‑Launcher · NC²□ Drift‑Matrix
+# UPY · Universal Pulse Yield (Meta‑Score)
 
-WHIRL ist der zentrale rotierende 81‑Felder‑Launcher für alle RESPO‑Module.
-Er verbindet die moderne RESPO‑Matrix (OCTA/REAL/Quadrant) mit dem älteren
-AnPI · SQRT‑API‑NC²□ System und führt beide Systeme in einer einheitlichen
-NC‑Drift‑Struktur zusammen.
+UPY ist der Meta‑Score des 9×9‑Systems.  
+Er befindet sich exakt zwischen physischer Energie (ELEKTRON · PLUTRON · NEUTRON)  
+und hyperenergetischer Struktur (HY · PE · PER).
 
-──────────────────────────────────────────────
-## 🔹 WHIRL‑Zweck
-- Rotiert automatisch durch alle 81 Felder
-- Startet jedes RESPO‑Modul direkt aus der Matrix
-- Verbindet alte NC²□‑Drift‑Engines mit neuen RESPO‑Modulen
-- Keine manuelle Arbeit notwendig
-- Voll kompatibel mit OCTA, REAL, Quadrant, whirl.json
+UPY ist der neutrale Ausgleich zwischen Überfluss (UFI) und Schwund (EFE).  
+Er bildet die Meta‑Yield‑Ebene, die alle Module miteinander kompatibel macht.
 
-──────────────────────────────────────────────
-## 🔹 Eingebundene RESPO‑Module
-Alle RESPO‑Repos werden automatisch geladen:
+---
 
-- RESPOx  
-- RESPO_ARG_SCAN  
-- RESPO_UI_STATUS  
-- RESPO-MULTI-NORM  
-- RESPO-Code-Pipeline  
-- RESPO  
-- RESPO-Beam-Point  
-- RESPO.Ort-LAGE  
-- RESPO-Station  
-- RESPO-Name  
-- RESPO_MODUL_LOOP  
-- respo-scan-hub.app  
-- RESPO_CORE_ROUTER  
-- Respo-Rotation  
-- respo-ghost-bridge.cloud  
-- RESPO_MOTION_PRIME  
-- RESPO_POSITION_USER  
+## 1. Identität (ID.html)
 
-──────────────────────────────────────────────
-## 🔹 Verbindung zum alten System (AnPI · SQRT‑API‑NC²□)
-WHIRL integriert folgende ältere Module:
+UPY besitzt eine Meta‑Achsen‑Identität:
 
-- SQRT‑Room (Wurzel‑Engine)
-- API.room / API.raw / API.system.js
-- NC²□ Drift‑Visualizer
-- RUN8‑WURZEL‑RESPO
-- T.room / h.room
-- Meta‑Drift‑Monitor6D
-- NC²□ Sync‑Visualizer
+ID = AXIS(U)◊
 
-Diese Module werden über WHIRL automatisch in die 9×9‑Matrix eingebunden.
+AXIS(U) ∈ {N, S, E, W, UP, DOWN, IN, OUT}  
+◊ = INNER(META‑YIELD)
 
-──────────────────────────────────────────────
-## 🔹 Dateien in diesem Repository
-- `whirl.json` – Rotationsmatrix (81 Felder)
-- `index.html` – grafischer WHIRL‑Launcher
-- `REAL.json` – 9×9 Routing‑Matrix
-- `octa.json` – OCTA‑Definition
-- `quadrant.json` – Quadranten‑Routing
-- `README.md` – diese Dokumentation
+Der UPY‑Kern ist ein neutraler Meta‑Score, der die Ausbeute zwischen  
+UFI (Überfluss) und EFE (Effizienz/Schwund) mathematisch ausgleicht.
 
-──────────────────────────────────────────────
-## 🔹 Startpunkt
-WHIRL kann direkt über `index.html` gestartet werden.
-Alle RESPO‑Module sind sofort anwählbar.
+---
+
+## 2. Score‑Struktur (score-bedeutung-3.csv)
+
+UPY nutzt die 3‑Score‑Matrix:
+
+1. UFI (Überfluss)
+2. EFE (Effizienz/Schwund)
+3. UPY (Yield/Balance)
+
+Mathematisch:
+
+UPY = (UFI + EFE) / 2
+
+Damit ist UPY der neutrale Mittelwert zwischen beiden Kräften.
+
+---
+
+## 3. Geo‑Form‑Kompatibilität (geo-form-kompatibel-mit-3.csv)
+
+UPY ist kompatibel mit den drei Meta‑Formen:
+
+- Kreis (Neutralität)
+- Achse (Struktur)
+- Kreuzung (Meta‑Balance)
+
+Diese Formen definieren die geometrische Darstellung des UPY‑Symbols.
+
+---
+
+## 4. Schnittstellen‑Bandbreite (schnittstelle-bandbreite-6.csv)
+
+UPY besitzt 6 Schnittstellen‑Kanäle:
+
+- Physisch → Meta
+- Meta → Hyper
+- Achsen → Score
+- Score → Verhalten
+- Verhalten → Zyklus
+- Zyklus → Modul
+
+Damit ist UPY vollständig USB‑kompatibel und übertrifft klassische Standards.
+
+---
+
+## 5. Systemintegration
+
+UPY ist kompatibel mit:
+
+- RUN8 (N, S, E, W, UP, DOWN, IN, OUT)
+- UFO = 9^9 (Zentrum)
+- 6‑BLOCK (HOME, TRANS, WARB, KANAL, UFO, CONTINIUM)
+- VLOU (81 × 3)
+- KOOP · POOK · 0000
+- UFI / EFE (Überfluss/Schwund)
+
+UPY ist der Meta‑Score des 9×9‑Systems.
+
+---
+
+## 6. Dateien im Repository
+
+- **ID.html** – Meta‑Score‑Symbol  
+- **index.html** – Score‑Demo  
+- **README.md** – Dokumentation  
+- **geo-form-kompatibel-mit-3.csv** – Geo‑Matrix  
+- **schnittstelle-bandbreite-6.csv** – Schnittstellenmatrix  
+- **score-bedeutung-3.csv** – Score‑Matrix
+
+UPY ist Modul 5/9 des 9×9‑Systems.
