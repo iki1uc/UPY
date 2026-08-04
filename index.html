@@ -20,4 +20,157 @@ body {
     margin:auto;
     position:relative;
     border:2px solid #0af;
-    border-radius:50
+    border-radius:50%;
+    box-shadow:0 0 25px #0af inset;
+}
+
+/* Achsenlinien – Meta‑Score */
+.axis {
+    position:absolute;
+    background:#0af;
+    opacity:0.28;
+    transition:opacity 0.4s;
+}
+
+/* Vertikal */
+#v {
+    width:2px;
+    height:320px;
+    left:50%;
+    top:0;
+    transform:translateX(-50%);
+}
+
+/* Horizontal */
+#h {
+    width:320px;
+    height:2px;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+}
+
+/* Diagonal */
+#d1 {
+    width:2px;
+    height:320px;
+    left:50%;
+    top:0;
+    transform:translateX(-50%) rotate(45deg);
+}
+
+#d2 {
+    width:2px;
+    height:320px;
+    left:50%;
+    top:0;
+    transform:translateX(-50%) rotate(-45deg);
+}
+
+/* UPY‑Kern */
+#core {
+    position:absolute;
+    width:65px;
+    height:65px;
+    background:#111;
+    border:2px solid #0af;
+    border-radius:50%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#0af;
+    font-size:22px;
+    animation:pulse 4s infinite;
+}
+
+/* Meta‑Pulse */
+@keyframes pulse {
+    0%   { transform:translate(-50%, -50%) scale(1);   color:#0af; }
+    50%  { transform:translate(-50%, -50%) scale(1.22); color:#7fdcff; }
+    100% { transform:translate(-50%, -50%) scale(1);   color:#0af; }
+}
+
+/* Meta‑Rotation */
+#energy {
+    position:absolute;
+    width:270px;
+    height:270px;
+    border:2px dashed #0af;
+    border-radius:50%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    animation:rotate540 10s linear infinite;
+}
+
+@keyframes rotate540 {
+    from { transform:translate(-50%, -50%) rotate(0deg); }
+    to   { transform:translate(-50%, -50%) rotate(540deg); }
+}
+
+/* Meta‑Aura */
+#aura {
+    position:absolute;
+    width:320px;
+    height:320px;
+    border-radius:50%;
+    top:0;
+    left:0;
+    background:radial-gradient(circle,
+        rgba(0,170,255,0.18) 0%,
+        rgba(0,0,0,0.8) 70%);
+    animation:auraPulse 6s infinite;
+}
+
+@keyframes auraPulse {
+    0%   { opacity:0.18; }
+    50%  { opacity:0.33; }
+    100% { opacity:0.18; }
+}
+</style>
+</head>
+
+<body>
+
+<h1>UPY · META SCORE EVO</h1>
+
+<div id="scene">
+    <div id="aura"></div>
+    <div id="energy"></div>
+    <div id="v" class="axis"></div>
+    <div id="h" class="axis"></div>
+    <div id="d1" class="axis"></div>
+    <div id="d2" class="axis"></div>
+    <div id="core">UPY</div>
+</div>
+
+<pre>
+RUN8 = N S E W UP DOWN IN OUT
+UFO = 9^9
+UPY = √(UFI × EFE × VLOU)
+META‑Score · Richtungs‑Vektor
+</pre>
+
+<script>
+// Achsen‑Flimmern – Meta‑leicht
+setInterval(() => {
+    const axes = document.querySelectorAll('.axis');
+    axes.forEach(a => a.style.opacity = Math.random() * 0.28 + 0.10);
+}, 480);
+
+// UPY‑Score‑Cycle
+let score = 0;
+setInterval(() => {
+    score = (score + 1) % 81;
+    document.getElementById("core").style.color =
+        score % 3 === 0 ? "#0af" :
+        score % 3 === 1 ? "#7fdcff" :
+                          "#fff";
+}, 240);
+</script>
+
+</body>
+</html>
